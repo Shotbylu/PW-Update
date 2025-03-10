@@ -130,6 +130,7 @@ const Contact = () => {
             target='_blank'
             rel='noopener noreferrer'
             className='text-white text-3xl hover:text-[#0077b5] transition-all duration-300'
+            aria-label="Visit Lungelo's LinkedIn profile"
           >
             <FaLinkedin />
           </a>
@@ -138,6 +139,7 @@ const Contact = () => {
             target='_blank'
             rel='noopener noreferrer'
             className='text-white text-3xl hover:text-[#333] transition-all duration-300'
+            aria-label="Visit Lungelo's GitHub profile"
           >
             <FaGithub />
           </a>
